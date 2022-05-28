@@ -7,13 +7,18 @@
     background-color: #ecf0f3;
 }
 
+#overview {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ecf0f3;
-    margin-top: -30px;
+    margin: auto;
 }
 
 .calc {
@@ -58,7 +63,10 @@ button {
     width: 120px;
 }
 
-h3 {
-    margin-top: -50px;
-    margin-left: 20px;
+#info {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -6px -6px 13px #FFF, 6px 6px 13px rgba(0, 0, 0, .16);
 }
